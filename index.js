@@ -1,0 +1,6 @@
+var links=document.querySelectorAll("header #nav ul li a");links.forEach((link)=>{link.addEventListener("click",(event)=>{links.forEach((otherLink)=>{document.querySelector('header #nav ul').classList.toggle('active');document.querySelector('header #nav .grid-icon').classList.toggle('active')
+if(otherLink!==link){otherLink.classList.remove("active");}});link.classList.add("active");});});function changeTheme(){document.body.classList.toggle('black');}
+function changeMenu(){document.querySelector('header #nav ul').classList.toggle('active');document.querySelector('header #nav .grid-icon').classList.toggle('active')}
+var paragraph=document.querySelector('#main #main_details > h4');var text=paragraph.textContent;var newText='';for(var i=0;i<text.length;i++){newText+='<span>'+text[i]+'</span>';}
+paragraph.innerHTML=newText;const root=document.documentElement;const colors=['#FF6B6B','#70C1B3','#EEDD82','#FFB347','#C0C0C0','#6495ED','#FFA07A','#98FB98','#FFD700','#87CEEB',];function changeColor(){const randomColor=colors[Math.floor(Math.random()*colors.length)];root.style.setProperty('--color',randomColor);}
+setInterval(changeColor,100);

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta http-equiv=X-UA-Compatible content="IE=edge">
+<meta name=viewport content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel=stylesheet href=https://unpkg.com/aos@next/dist/aos.css />
+<link rel=stylesheet href=style.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css>
+<script type=module src=https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js></script>
+<script nomodule src=https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js></script>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin=anonymous referrerpolicy=no-referrer />
+<script type=text/javascript src=https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js></script>
+<script type=text/javascript>(function(){emailjs.init("JCGYCf8cnghtJR-kX")})();</script>
+</head>
+<body class=black>
+<section>
+<header id=header>
+<h2>Devang Singh</h2>
+<div id=nav>
+<ul>
+<li><a href=#main>Home</a></li>
+<li><a href=#portfolio>portfolio</a></li>
+<li><a href=#mainskill>Skills</a></li>
+<li><a href=#about>About</a></li>
+<li><a href=#contact>Contact</a></li>
+</ul>
+<div class=theme-icon onclick=changeTheme()>
+<span for=change_theme>
+<ion-icon name=sunny></ion-icon>
+</span>
+</div>
+<div class=grid-icon onclick=changeMenu()>
+<span for=res_nav>
+<ion-icon name=grid-outline></ion-icon>
+</span>
+</div>
+</div>
+</header>
+<div id=main>
+<div id=main_details data-aos=fade-right>
+<p>hello</p>
+<div id=title>
+<h1>I love </h1>
+<div class=words>
+<span>&nbsp;</span><span style="--color:#ffa115;background-image:url('https://t3.ftcdn.net/jpg/04/28/29/98/360_F_428299824_jyzyWuDETMKwrtwCXyifpkDJ0ffp8vWi.jpg')">React
+Js</span><span style="--color:#f8268f;background-image:url('https://ih1.redbubble.net/image.923636839.6341/flat,750x,075,f-pad,750x1000,f8f8f8.jpg')">Node
+Js</span><span style="--color:#00eaff;background-image:url('https://cdn.pixabay.com/photo/2023/07/04/17/35/rainbow-8106709_640.jpg')">MongoDB</span><span style="--color:#a200ff;background-image:url('https://w0.peakpx.com/wallpaper/639/863/HD-wallpaper-stripes-abstract-rainbow-thumbnail.jpg')">Express Js</span><span>React Js</span>
+</div>
+</div>
+<h4>I'm Devang, a MERN stack developer with 5 months of experience. Specializing in
+MongoDB, Express.js, React.js, and Node.js. I'm dedicated
+to continuous learning, always seeking innovative solutions. I thrive on
+working closely with clients and teammates. With a focus on simplicity, scalability, and
+user-centric design, I aim to make a positive impact in web development.</h4>
+<button><a href=#contact>Contact Me</a></button>
+<button><a href=https://github.com/devang-singh0>GitHub</a></button>
+</div>
+<div id=main_image>
+<img src=main_web_images/new32.png alt>
+</div>
+</div>
+<div id=portfolio>
+<h3 class=heading>my projects</h3>
+<div class=box>
+<div class=project>
+<div class=main>
+<img src="/main_web_images/todo.png"/>
+<h2>TODO api - backend</h2>
+<p>User Authentication, CRUD operations on TODO's and Users</p>
+<div class=tech>
+<i class="fab fa-css3-alt"></i><i class="fa-brands fa-bootstrap"></i><i class="fab fa-js"></i><i class="fab fa-node-js"></i><i class="fa-solid fa-database"></i><i class="fa-solid fa-user"></i>
+</div>
+<hr>
+<div class=btn>
+<button style=--clr:#ff00c8><a href=https://github.com/devang-singh0/TODO_API target=_blank>GitHub</a></button>
+<button style=--clr:#00c8ff><a href=https://devang-todo-api.up.railway.app/ target=_blank>Go Live</a></button>
+</div>
+</div>
+</div>
+<div class=project>
+<div class=main>
+<img src="/main_web_images/megamart.png"/>
+<h2>MegaMart - Full stack</h2>
+<p>E-commerce MERN stack project with payments integration</p>
+<div class=tech>
+<i class="fab fa-sass"></i><i class="fab fa-js"></i><i class="fab fa-react"></i><i class="fab fa-node"></i><i class="fa-solid fa-database"></i>
+</div>
+<hr>
+<div class=btn>
+<button style=--clr:#ff00c8><a href=https://github.com/devang-singh0/megamart target=_blank>GitHub</a></button>
+<button style=--clr:#00c8ff><a href=https://megamart-1.vercel.app/ target=_blank>Go Live</a></button>
+</div>
+</div>
+</div>
+<div class=project>
+<div class=main>
+<img src="/main_web_images/foodhut.png"/>
+<h2>FoodHut - frontend</h2>
+<p>A frontend only food delivery website UI</p>
+<div class=tech>
+<i class="fab fa-sass"></i><i class="fab fa-js"></i><i class="fab fa-react"></i><i class="fa-solid fa-caret-up"></i><i class="fa-brands fa-github"></i>
+</div>
+<hr>
+<div class=btn>
+<button style=--clr:#ff00c8><a href=https://github.com/devang-singh0/foodhut target=_blank>GitHub</a></button>
+<button style=--clr:#00c8ff><a href=https://foodhut-peach.vercel.app/ target=_blank>Go Live</a></button>
+</div>
+</div>
+</div>
+<div class=project>
+<div class=main>
+<img src="/main_web_images/spotify.png"/>
+<h2><i class="fa-solid fa-triangle-exclamation"></i> Spotify Clone</h2>
+<p>INCOMPLETE MERN stack spotify clone project with a shiny UI</p>
+<div class=tech>
+<i class="fab fa-sass"></i><i class="fab fa-js"></i><i class="fab fa-react"></i><i class="fab fa-node"></i><i class="fa-solid fa-database"></i>
+</div>
+<hr>
+<div class=btn>
+<button style=--clr:#ff00c8><a href=https://www.linkedin.com/feed/update/urn:li:activity:7168215149319856128/ target=_blank>Watch Video</a></button>
+</div>
+</div>
+</div>
+<div class=project>
+<div class=main>
+<img src="/main_web_images/king.png"/>
+<h2>Simple Landing page</h2>
+<p>Long time ago i made this landing page</p>
+<div class=tech>
+<i class="fa-brands fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-js"></i>
+</div>
+<hr>
+<div class=btn>
+<button style=--clr:#ff00c8><a href=https://github.com/devang-singh0/wrist-watch-landing-page target=_blank>GitHub</a></button>
+<button style=--clr:#00c8ff><a href=https://devang-singh0.github.io/wrist-watch-landing-page/ target=_blank>Go Live</a></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id=mainskill data-aos=fade-up>
+<h6 class=heading>My Skills</h6>
+<div class=skills>
+<div class=frontend>
+<i class="fa-solid fa-laptop-code"></i>
+<h4>FrontEnd</h4>
+<p>HTML</p>
+<p>CSS & SCSS</p>
+<p>JavaScript</p>
+<p>React Js</p>
+<p>React Redux</p>
+</div>
+<div class=backend>
+<i class="fa-solid fa-server"></i>
+<h4>BackEnd</h4>
+<p>Node Js</p>
+<p>Express Js</p>
+<p>RESTful API</p>
+<p>Authentication</p>
+<p>MVC Pattern</p>
+</div>
+<div class=database>
+<i class="fa-solid fa-database"></i>
+<h4>Database</h4>
+<p>MongoDB</p>
+<p>PostgreSQL</p>
+<p>Database Integration</p>
+<p>Mongoose</p>
+</div>
+<div class=tools>
+<i class="fa-solid fa-microscope"></i>
+<h4>Tools</h4>
+<p>Git</p>
+<p>Figma</p>
+<p>NPM</p>
+<p>Github copilot</p>
+</div>
+<div class=extras>
+<i class="fa-solid fa-code-merge"></i>
+<h4>Extras</h4>
+<p>Bootstrap</p>
+<p>Wordpress</p>
+<p>ChatGPT</p>
+<p>GitHub</p>
+<p>Version Control</p>
+</div>
+</div>
+</div>
+<div id=about>
+<h3 class=heading>My tech stack</h3>
+<div id=timeline>
+<div class=checkpoints data-aos=fade-right>
+<h1>FrontEnd<span>~advanced</span></h1>
+<p>I have advanced knowledge of frontend design with <span style=--clr:#00539c>HTML</span>
+, <span style=--clr:#f96167>CSS</span> and <span style=--clr:#4831d4>vanilla
+JavaScript</span>. <span style=--clr:#901>This website</span> is a living example of
+my skills as i build it in my early days with only these 3 tech.</p>
+</div>
+<div class=checkpoints data-aos=fade-right>
+<h1>Backend<span>~intermediate</span></h1>
+<p>With EXPRESS and NODEJS i have knowledge of <span style=--clr:#317773>RESTful
+API, </span><span style=--clr:#8aaae5>Middleware, </span><span style=--clr:#4831d4>Database Integration, </span><span style=--clr:#f96167>Authentication and Authorization</span> and <span style=--clr:#00539c>Asynchronous Programming Patterns.</span></p>
+</div>
+<div class=checkpoints data-aos=fade-left>
+<h1>REACT<span>~intermediate</span></h1>
+<p>I have knowledge of REACT JS as it is one of the best frontend library out there. I have worked
+on 2 personal projects with react. <br> First is <span style=--clr:#00539c>SPOTIFY CLONE
+PROJECT</span> and second is <span style=--clr:#8aaae5>E-commerce website</span>.</p>
+</div>
+<div class=checkpoints data-aos=fade-right>
+<h1>DATABASE<span>~intermediate</span></h1>
+<p>I have knowledge in MongoDB a NoSQL database. It's my main stack DB over postgreSQL. I'm using
+this database in two of my personal
+projects.<span style=--clr:#ff69b4> SPOTIFY CLONE PROJECT</span> and
+<span style=--clr:#4831d4>TODO REST API</span>
+</p>
+</div>
+<div class=checkpoints data-aos=fade-left>
+<h1>Extras<span>~😀</span></h1>
+<p>Additionally i have these in my tech stack - <br>
+<span style=--clr:#ee4e34>Figma, </span><br>
+<span style=--clr:#109c00>ChatGPT, </span>
+<span style=--clr:#6d009c>Bootstrap, </span>
+<span style=--clr:#5c2046>SCSS, </span>
+<span style=--clr:#00539c>Wordpress, </span>
+<span style=--clr:#c3a20c>postgreSQL, </span>
+<span style=--clr:#11b7b1>Git, GitHub and version control. </span>
+</p>
+</div>
+<div class=checkpoints data-aos=fade-right>
+<h1>FUTURE <span>~🔮</span></h1>
+<p>Still i'm working to improve the tech i already know.
+<span style=--clr:#00008b>AWS, </span>
+<span style=--clr:#7f8b00>NextJs, </span>
+<span style=--clr:#c79e18>Docker and </span>
+<span style=--clr:#518b00>React Native</span> are a few technologies in my mind that i will
+start working on once i get good hold on MERN STACK
+</p>
+</div>
+</div>
+</div>
+<div id=contact>
+<div class=contact data-aos=fade-up>
+<div id=form>
+<h3>Contact Me</h3>
+<form action>
+<input type=text name id required placeholder="First Name">
+<input type=text name id required placeholder="Last Name">
+<input type=email name id required placeholder=E-mail>
+<textarea name id cols=30 rows=10 placeholder=Massage></textarea>
+<button type=submit><ion-icon name=send></ion-icon></button>
+</form>
+</div>
+<div id=contact_details>
+<h3>Contact Information</h3>
+<div>
+<ion-icon name=call></ion-icon>
+<p>+91 8949349723</p>
+</div>
+<div>
+<ion-icon name=mail></ion-icon>
+<p>devangs528@gmail.com</p>
+</div>
+<div>
+<ion-icon name=location></ion-icon>
+<p>Jaipur, India</p>
+</div>
+<div>
+<a href=https://www.linkedin.com/in/devang-singh-b29353255/><ion-icon name=logo-linkedin></ion-icon></a>
+<a href=https://github.com/devang-singh0><ion-icon name=logo-github></ion-icon></a>
+</div>
+</div>
+</div>
+</div>
+<button id=scroll_to_top><a href=#header><ion-icon name=arrow-up></ion-icon></a></button>
+</section>
+<div id=particles-js></div>
+<script type=text/javascript src=vanilla-tilt.js></script>
+<script src=\particles.js-master\particles.js-master\particles.js></script>
+<script src=\particles.js-master\particles.js-master\demo\js\app.js></script>
+<script src=https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js integrity=sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo crossorigin=anonymous></script>
+<script src=https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js integrity=sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/ crossorigin=anonymous></script>
+<script src=https://unpkg.com/aos@next/dist/aos.js></script>
+<script>AOS.init({offset:300,duration:1000});</script>
+<script type=text/javascript src=https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js></script>
+<script type=text/javascript>(function(){emailjs.init({publicKey:"CGrwt91JXTEaHIP36"})})();</script>
+<script src=main.js></script>
+<script src=index.js></script>
+</body>
+</html>
